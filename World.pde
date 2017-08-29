@@ -44,7 +44,6 @@ public class World
     
     Collections.shuffle( turtlelessCells );
     
-    
     for( Turtle turtleToAdd : turtlesToAdd )
     {
       // make sure there are spaces
@@ -81,11 +80,8 @@ public class World
           {
             turtle.render();          
           }
-
         }
       }
     }
   }
-  
-  //  run all cells in grid
 }

@@ -56,7 +56,6 @@ public void setup()
     type2Turtles.add( newTurtle );
   }
   world.addTurtlesToRandomEmptyCells( type2Turtles );
-  
 }
 
 public void draw()
@@ -64,7 +63,6 @@ public void draw()
   background( 0, 0, 0 );
   
   world.render();
-
   world.runAllTurtles( world );
 }
 
